@@ -119,32 +119,3 @@ beginShape(); // right mouth line
     
 }
 
-strokeWeight(3)
-stroke(0);
-point(140, 66);
-
-
-
-      // Draw cherry stem
-      fill(51, 153, 51); // green color for the stem
-      rect(25, 30, 3, 20, 5);
-    
-      // Draw cherry body
-      noStroke();
-      fill(255, 0, 0); // red color for the cherry
-      ellipse(30, 30, 30, 30);
-    
-      // Draw cherry's top part
-      beginShape();
-      fill(255, 0, 0); // red color for the cherry top
-      vertex(20, 22);
-      bezierVertex(22, 15, 38, 15, 40, 22);
-      bezierVertex(40, 22, 35, 26, 30, 28);
-      bezierVertex(25, 26, 20, 22, 20, 22);
-      endShape(CLOSE);
-    
-      // Draw cherry highlights
-      fill(255);
-      ellipse(33, 28, 4, 4);
-      ellipse(27, 25, 4, 4);
-
